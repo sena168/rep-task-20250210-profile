@@ -102,5 +102,5 @@ Check this module: [click this](https://orchid-clematis-3e4.notion.site/Panduan-
 🎉 Congratulations on starting your first HTML project! This will be the
 foundation of everything else you build on the web 🚀.
 
-Task Submission Github Repo:
-git@github.com:WPH-Bootcamp/challenge-1-sena168-1.git
+Github Repo:
+https://github.com/sena168/rep-task-20250210-profile
