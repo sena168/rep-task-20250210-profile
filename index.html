@@ -3,7 +3,253 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="A simple user profile page as a mini HTML challenge."
+    />
+    <title>My Profile</title>
   </head>
-  <body></body>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e3f2fd;
+    "
+  >
+    <header
+      style="
+        background: #b3e5fc;
+        color: #333;
+        padding: 1em 2em;
+        border-bottom: 4px solid #ce93d8;
+      "
+    >
+      <h1>My Profile</h1>
+    </header>
+    <main
+      style="
+        padding: 2em;
+        max-width: 700px;
+        margin: auto;
+        background: #fffbe7;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px #b3e5fc55;
+      "
+    >
+      <section>
+        <h2 style="color: #ffb74d">About Me</h2>
+        <p>
+          Hello! my name is Sena. I'm a passionate
+          <strong>developer</strong> and <strong>Prompt Engineer</strong> who
+          loves building web projects and creating AI generated contents while
+          learning new technologies.
+        </p>
+        <img
+          src="senaprof.png"
+          alt="Profile picture of the user"
+          style="
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin-bottom: 1em;
+            border: 4px solid #a5d6a7;
+          "
+        />
+        <ul style="list-style: none; padding: 0">
+          <li style="margin-bottom: 0.5em">
+            <a
+              href="https://www.linkedin.com/in/sena168/"
+              target="_blank"
+              rel="noopener"
+              style="
+                color: #7e57c2;
+                text-decoration: underline;
+                font-weight: bold;
+              "
+              >Linkedin</a
+            >
+          </li>
+          <li style="margin-bottom: 0.5em">
+            <a
+              href="https://www.youtube.com/shorts/tCKx1bAIFe8"
+              target="_blank"
+              rel="noopener"
+              style="
+                color: #7e57c2;
+                text-decoration: underline;
+                font-weight: bold;
+              "
+              >Youtube</a
+            >
+          </li>
+        </ul>
+        <table
+          style="
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+            background: #e8f5e9;
+          "
+        >
+          <tr>
+            <th
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+                background: #ce93d8;
+                color: #333;
+              "
+            >
+              Skill
+            </th>
+            <th
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+                background: #ce93d8;
+                color: #333;
+              "
+            >
+              Level
+            </th>
+          </tr>
+          <tr>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              HTML
+            </td>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              Advanced
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              CSS
+            </td>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              Intermediate
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              Gen AI
+            </td>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              Advanced
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              English
+            </td>
+            <td
+              style="
+                border: 1px solid #a5d6a7;
+                padding: 0.5em;
+                text-align: left;
+              "
+            >
+              Intermediate
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer
+      style="
+        background: #b3e5fc;
+        color: #333;
+        padding: 1em 2em;
+        border-top: 4px solid #ffb74d;
+      "
+    >
+      <form
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          max-width: 400px;
+          background: #f3e5f5;
+          padding: 1em;
+          border-radius: 8px;
+          border: 2px solid #ce93d8;
+        "
+      >
+        <label for="email" style="margin-bottom: 0.2em">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          style="padding: 0.5em"
+        />
+        <label for="purpose" style="margin-bottom: 0.2em"
+          >Contact Purpose:</label
+        >
+        <select id="purpose" name="purpose" style="padding: 0.5em">
+          <option value="general">General Inquiry</option>
+          <option value="collab">Collaboration</option>
+          <option value="feedback">Feedback</option>
+        </select>
+        <button
+          type="submit"
+          style="
+            padding: 0.5em;
+            background: #a5d6a7;
+            color: #333;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+          "
+        >
+          Send
+        </button>
+      </form>
+      <p style="margin-top: 1em">&copy; 2025 My Profile Page</p>
+    </footer>
+  </body>
 </html>
