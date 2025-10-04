@@ -104,3 +104,6 @@ foundation of everything else you build on the web 🚀.
 
 Github Repo:
 https://github.com/sena168/rep-task-20250210-profile
+
+vercel deployment:
+https://rep-task-20250210-profile.vercel.app/
